@@ -1,0 +1,51 @@
+.ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 12px;
+}
+.ul li {
+  display: inline-flex;
+  vertical-align: text-bottom;
+  box-sizing: inherit;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.fontIcons {
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+}
+.main_div {
+  display: flex;
+}
+.div_left {
+  width: 30%;
+}
+.div_right {
+  width: 70%;
+}
+@media only screen and (max-width: 900px) {
+  * {
+    font-size: 10px;
+  }
+  .div_left {
+    width: 0;
+  }
+  .div_right {
+    width: 100%;
+  }
+
+  .fontIcons {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,82 @@
+.input_div {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+.input_div input {
+  padding: 3px;
+  text-decoration: none;
+  border-color: red;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+}
+.sendIcon {
+  background: rgb(138, 54, 54);
+  padding: 2px;
+  margin: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+}
+.left {
+  width: 30%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.816);
+  height: 100vh;
+}
+.right {
+  width: 70%;
+  color: white;
+  background-color: black;
+  height: 100vh;
+}
+.sent {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px 0px 5px 5px;
+}
+.sentmsj {
+  margin-right: 5px;
+}
+.response {
+  text-align: left;
+  margin-left: 25px;
+  padding: 5px;
+  border-radius: 0px 5px 5px 5px;
+  background: rgb(179, 23, 49);
+}
+
+.ai {
+  margin: 5px;
+  text-align: start;
+}
+@media only screen and (max-width: 900px) {
+  * {
+    font-size: 10px;
+  }
+  .left {
+    width: 0;
+  }
+  .right {
+    width: 100%;
+    color: white;
+  }
+  .input_div {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    right: 25%;
+  }
+}
